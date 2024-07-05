@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "hidemyarmor",
+  "version": "${version}",
+  "name": "Hide My Armor",
+  "description": "A fully serverside mod to hide player armor and add optional hats!",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/kijetesantakalu/hidemyarmor"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/hidemyarmor/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "dev.kijetesantakalu.hidemyarmor.HideMyArmor"
+    ]
+  },
+  "mixins": [
+    "hidemyarmor.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}

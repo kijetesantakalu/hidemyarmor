@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.kijetesantakalu.hidemyarmor.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EquipmentMixin",
+    "LivingEntityMixin",
+    "PlayerEntityMixin",
+    "PlayerScreenHandlerMixin",
+    "ScreenHandlerMixin"
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
